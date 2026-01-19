@@ -1,0 +1,176 @@
+{
+  "28": [
+    {
+      "block_size": 64,
+      "max_num_seqs": 256,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 4,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": true,
+      "enable_prefix_caching": true,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 1.2703117350687754,
+        "throughput(token/s)": 837.2077926672505
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 1.9787949394143324e-07,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.0847044464934934
+        }
+      }
+    ]
+  ],
+  "27": [
+    {
+      "block_size": 32,
+      "max_num_seqs": 256,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 4,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": false,
+      "enable_prefix_caching": true,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 1.271580330954871,
+        "throughput(token/s)": 837.71912497822
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 1.9793429354798578e-07,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.09423250857764075
+        }
+      }
+    ]
+  ],
+  "19": [
+    {
+      "block_size": 128,
+      "max_num_seqs": 256,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 4,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": true,
+      "enable_prefix_caching": false,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 1.278102424513723,
+        "throughput(token/s)": 837.7469871880041
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 1.9792607550247586e-07,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.08940440859202467
+        }
+      }
+    ]
+  ],
+  "36": [
+    {
+      "block_size": 128,
+      "max_num_seqs": 64,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 2,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": false,
+      "enable_prefix_caching": false,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 1.2548765154893164,
+        "throughput(token/s)": 506.48522175596725
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 1.9794536792289806e-07,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.09473576109681375
+        }
+      }
+    ]
+  ],
+  "11": [
+    {
+      "block_size": 32,
+      "max_num_seqs": 128,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 1,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": false,
+      "enable_prefix_caching": true,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 0.9660656275548666,
+        "throughput(token/s)": 290.2310833332508
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 1.9794562739941033e-07,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.09474483215017471
+        }
+      }
+    ]
+  ],
+  "24": [
+    {
+      "block_size": 32,
+      "max_num_seqs": 256,
+      "max_num_batched_tokens": 12288,
+      "tensor_parallel_size": 4,
+      "pipeline_parallel_size": 1,
+      "enable_chunked_prefill": true,
+      "enable_prefix_caching": true,
+      "dtype": "auto",
+      "data_parallel_size": 1
+    },
+    [
+      {
+        "energy(J/token)": 1.3227411224816747,
+        "throughput(token/s)": 841.7179218960209
+      },
+      {
+        "energy(J/token)": {
+          "energy(J/token)": 6.598011507208304e-08,
+          "throughput(token/s)": 0.0
+        },
+        "throughput(token/s)": {
+          "energy(J/token)": 0.0,
+          "throughput(token/s)": 0.03138492707679212
+        }
+      }
+    ]
+  ]
+}
