@@ -1,6 +1,6 @@
-# vLLM Multi-Objective Bayesian Optimization
+# vLLM Multi-Objective Bayesian Optimisation
 
-A toolkit for optimizing vLLM inference configurations using multi-objective Bayesian optimization. This project helps find Pareto-optimal configurations that balance **throughput** (tokens/second) and **energy efficiency** (Joules/token).
+A toolkit for optimising vLLM inference configurations using multi-objective Bayesian optimisation. This project helps find Pareto-optimal configurations that balance **throughput** (tokens/second) and **energy efficiency** (Joules/token).
 
 ## Installation
 
@@ -15,13 +15,13 @@ A toolkit for optimizing vLLM inference configurations using multi-objective Bay
 ```bash
 pip install vllm torch codecarbon ax-platform botorch datasets plotly
 ```
-Alternatively, check out requirements.txt for reproducibity.
+Alternatively, check out requirements.txt for reproducibility.
 
 ## Usage
 
 ### 1. Single Evaluation
 
-Run a single vLLM evaluation with specific configuration:
+Run a single vLLM evaluation with a specific configuration:
 
 ```bash
 python vllm_evaluation.py \
@@ -50,9 +50,9 @@ python vllm_evaluation.py \
 | `--dtype` | "auto" | Data type (auto, float16, bfloat16) |
 | `--enable_profiling` | False | Enable vLLM profiler |
 
-### 2. Multi-Objective Optimization
+### 2. Multi-Objective Optimisation
 
-Run Bayesian optimization to find Pareto-optimal configurations:
+Run Bayesian optimisation to find Pareto-optimal configurations:
 
 ```bash
 python optimize_vllm.py \
@@ -105,9 +105,9 @@ nsys profile \
 
 ## Output
 
-### Optimization Results
+### Optimisation Results
 
-After optimization completes, results are saved to the output directory:
+After optimisation completes, results are saved to the output directory:
 
 - **`trials_data.csv`**: Complete trial history with parameters and metrics
 - **`pareto_optimal.json`**: Pareto-optimal configurations
